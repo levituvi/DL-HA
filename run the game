@@ -1,0 +1,20 @@
+Start first server
+
+python server.py localhost 8000 http://localhost:8001
+
+in a diff terminal window
+start second server
+
+python server.py localhost 8001 http://localhost:8000
+Using the CLI Tool
+Use CLI tool to control the game:
+Start the Game
+python cli.py start 1000
+This starts the game with a 1-second interval between pings.
+Pause the Game
+python cli.py pause
+Resume the Game
+python cli.py resume
+Stop the Game
+python cli.py stop
+
